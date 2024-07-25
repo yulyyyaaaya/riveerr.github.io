@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Прогулка по Воробьевым горам</title>
+  <link rel="stylesheet" href="stylespider.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">Речные прогулки</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="index.html#infa">О нас</a></li>
+          <li><a href="index.html#catalog">Каталог прогулок</a></li>
+          <li><a href="index.html#otzivi">Отзывы</a></li>
+          <li><a href="index.html#contact">Контакты</a></li>
+          <li><a href="feedback.html">Оставить заявку</a></li> <!-- Изменено на feedback.html -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="content">
+      <div class="container" id="container">
+        <div class="form-container sign-in">
+          <h1>Обратная связь/Запись</h1>
+          <form method="post" action="test.php"> <!-- Действие оставлено для примера -->
+            <p>Имя: <input type="text" name="name" required></p>
+            <p>Email: <input type="email" name="email" required></p>
+            <p>Сообщение: <textarea name="message" required></textarea></p>
+            <input type="submit" name="send" value="Отправить">
+          </form>
+        </div>
+      </div>
+
+      <div id="response"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" id="contact">
+      <h3>Контакты</h3>
+      <ul>
+        <li><a href="tel:+79181592124">8(918)159-21-24</a></li>
+        <li><a href="mailto:moskvariverr@yandex.ru">moskvariverr@yandex.ru</a></li>
+        <li><a href="#">Пресненская набережная, 16, стр. 1</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Шапка сайта */
+header {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #005a8e;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Основное содержимое */
+.main {
+  padding: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.tour-details {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.tour-image {
+  flex: 0 0 50%;
+  padding-right: 30px;
+}
+
+.tour-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tour-info {
+  flex: 0 0 50%;
+}
+
+.tour-info h2 {
+  margin-top: 0;
+}
+
+.tour-description {
+  margin-top: 40px;
+}
+
+.tour-description h2 {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #005a8e;
+}
+
+/* Футер */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h3 {
+  margin-top: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  color: #0077b6;
+}
